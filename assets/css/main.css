@@ -639,7 +639,7 @@
     cursor: pointer;
 }
 
-.header__cart-wrap:hover .header__cart-list {
+.check-cart-input:checked ~ .header__cart-list {
     display: block;
 }
     /* GIỎ HÀNG  */
