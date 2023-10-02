@@ -208,14 +208,15 @@
                             <i class="fa-solid fa-magnifying-glass header__search-btn-icon"></i>
                         </button>
                     </div>
-                    <div class="header__cart">
+                    <label for="header-check-cart" class="header__cart">
                         <div class="header__cart-wrap">
                             <i class="fa-solid fa-cart-shopping header__cart-logo"></i>
                             <span><div class="header__cart-notice">3</div></span>
                             
                             <!-- CART LIST  -->
                                         <!-- NO CART   .header__cart-list--no-cart -->
-                            <div class="header__cart-list ">
+                            <input type="checkbox" hidden id="header-check-cart" class="check-cart-input">
+                            <label for="header-check-cart" class="header__cart-list ">
                                 <img src="./assets/img/no__cart.png" alt="No item" class="header__cart--no-cart-img">
                                 <span class="header__cart-list--no-cart-mess">
                                 Chưa có sản phẩm
@@ -312,11 +313,11 @@
                                     </li>
                                 </ul>
                                 <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
-                            </div>
+                            </label>
                             
                         </div>
 
-                    </div>
+                    </label>
                 </div>
             </div>
             <ul class="header__sort-bar">
